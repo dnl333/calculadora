@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+body{font-family: 'Kdam Thmor Pro', sans-serif;
+    color: black;
+    background-image: url(fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{color:rgb(255, 255, 255)}
+
+main{margin: auto;
+    background-color: #3daeff;
+    text-align: center;
+    width: 30%;
+    border-radius: 10px;
+    padding: 10px;
+    border-style:groove;
+    border-color:black;}
+
+@media screen and (max-width:915px){
+main{width: 95%;
+margin:auto;
+padding: 0;}
+            
+h1{font-size: 20px;}}
+
+@media screen and (max-width:1280px){
+ main{width: 55%;
+margin:auto;
+padding: 0;}
+                
+h1{font-size: 20px;}}
+
+@media screen and (max-width:280px){
+main{width: 75%;
+margin:auto;
+padding: 0;}
+                    
+main h1{font-size: 16px;}}
+
+hr{border-color: black;}
+    
+
+#n1{width: 50px;
+    height: 25px;
+    border-radius: 4px;}
+#n2{width: 45px;
+    height: 25px;
+    border-radius: 4px;}
+#s1{width: 50px;
+    height: 25px;
+    border-radius: 4px;}
+#s2{width: 45px;
+    height: 25px;
+    border-radius: 4px;}
+#d1{width: 50px;
+    height: 25px;
+    border-radius: 4px;}
+#d2{width: 45px;
+    height: 25px;
+    border-radius: 4px;}
+#m1{width: 50px;
+    height: 25px;
+    border-radius: 4px;}
+#m2{width: 45px;
+    height: 25px;
+    border-radius: 4px;}
+
+input[type="button"]{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    padding-left: 5px;
+    background-color:#FE6847;
+    color:white;
+    border-color: rgba(0, 0, 0, 0.911);
+    cursor: pointer;}
+
+#res{
+    color: white;
+    font-size: 24px;
+    font-weight: 700;}
+
+#res2{
+    color: white;
+    font-size: 24px;
+    font-weight: 700;}
+
+#res3{
+    color: white;
+    font-size: 24px;
+    font-weight: 700;}
+    
+#res4{
+    color: white;
+    font-size: 24px;
+    font-weight: 700;}
